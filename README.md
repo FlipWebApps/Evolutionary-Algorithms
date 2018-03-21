@@ -25,3 +25,6 @@ In this demo we just chose genes at random from the parents.
 How often should genes mutate, how many genes can mutate and should mutations be at random or a deviation of existing gene values.
 
 In this demo we have a mutation rate of 1% setting all genes to random values within their valid range.
+
+
+SkyBox: CC-BY-SA 3.0 NoLogoGames, https://opengameart.org/content/space-nebulas-skybox
