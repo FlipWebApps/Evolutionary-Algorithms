@@ -6,7 +6,7 @@ In this example we look at how to optimise the ability of move and jump to maxim
 
 ![Screenshot](screenshot.gif)
 
-We initialise the algorithm with random start values for 'walk speed' and 'distance from object to jump'. Evolution occurs according to the below.
+We initialise the algorithm with random start values for 'walk speed' and 'distance from object to jump'. Evolution occurs according to the below with convergence occurring after about 10 generations.
 
 ## Strength
 In general we only let the strongest individuals survive. It is hence critical that we have a good definition of how to define what strongest means. We also need to determine what percentage of the population should 'survive' and be used for breeding new generations.
