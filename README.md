@@ -1,13 +1,17 @@
 # Evolutionary Algorithms
 
-Based upon the excellent course [A Beginner's Guide To Machine Learning with Unity](https://www.udemy.com/machine-learning-with-unity/).
+Genetic algorithms are inspired by biological evolution and concepts such as reproduction, mutation, recombination, and netural selection. Genetic algorithms are commonly used to generate solutions to optimization and search problems.
 
-With genetic algorithms there are many things to consider some of which are covered in the above course, others we list in more detail below.
+In this example we look at how to optimise the ability of move and jump to maximise the total distance agents travel within a given time period.
+
+![Screenshot](screenshot.gif)
+
+We initialise the algorithm with random start values for 'walk speed' and 'distance from object to jump'. Evolution occurs according to the below.
 
 ## Strength
 In general we only let the strongest individuals survive. It is hence critical that we have a good definition of how to define what strongest means. We also need to determine what percentage of the population should 'survive' and be used for breeding new generations.
 
-In this demo we consider total distance travelled, and penalise for time in the air as that is presumably sub optimal using more energy.
+In this demo the fitness function considers total distance travelled, and penalise for time in the air as that is presumably sub optimal using more energy.
 
 ## Breeding Strategy
 How should individuals that survive breed? There are many methods here including cross breading with the strongest, random breeding, biased towards the strongest, considering different genders etc.
