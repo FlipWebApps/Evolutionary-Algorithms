@@ -31,4 +31,4 @@ How often should genes mutate, how many genes can mutate and should mutations be
 In this demo we have a mutation rate of 1% setting all genes to random values within their valid range.
 
 
-SkyBox: CC-BY-SA 3.0 NoLogoGames, https://opengameart.org/content/space-nebulas-skybox
+SkyBox Images: CC-BY-SA 3.0 NoLogoGames, https://opengameart.org/content/space-nebulas-skybox
